@@ -4,13 +4,13 @@ project(ucd_csci2312_pa1)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
-    main.cpp
+        main.cpp
+        Point.cpp
         area.cpp
-    Point.cpp
-    Point.h
-        PointTests.h
+        Point.h
         PointTests.cpp
+        PointTests.h
         ErrorContext.cpp
         ErrorContext.h)
 
-add_executable(ucd_csci2312_pa1 ${SOURCE_FILES})
+add_executable(ucd_csci2312_pa1 ${SOURCE_FILES} )

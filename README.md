@@ -9,13 +9,14 @@ C++ lets us program with _objects_. We describe objects in C++ by declaring and 
 Here is a sample header file <tt>Point.h</tt> that describes an object that represents a point in two-dimensional Euclidean space:
 
 ```c++
-// A 2-dimensional point class!
+// A 3-dimensional point class!
 // Coordinates are double-precision floating point.
 class Point {
 
 private:
     double x;
     double y;
+    double x;
 
 public:
     // Constructors
