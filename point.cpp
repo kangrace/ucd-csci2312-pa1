@@ -15,6 +15,7 @@ Point::Point(double newX, double newY, double newZ)
     z = newZ;
 }
 
+
 double Point::distanceTo(const Point& p) const
 {
     double distanceX = x - p.getX();
